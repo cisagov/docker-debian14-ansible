@@ -8,6 +8,8 @@ updates:
           - "actions/*"
           # Covers official Docker actions
           - "docker/*"
+          # Cover the action we use to update the Docker Hub description
+          - "peter-evans/dockerhub-description"
     package-ecosystem: github-actions
     schedule:
       interval: weekly
